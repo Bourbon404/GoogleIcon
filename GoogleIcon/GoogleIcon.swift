@@ -60,6 +60,7 @@ class GoogleIcon: UIView {
     
     lazy var whiteLayer:WhitePlaceLayer = {
         let white = WhitePlaceLayer.init()
+        white.frame = CGRect.init(x: 0, y: 0, width: 74, height: 74)
         return white
     }()
     
@@ -85,6 +86,7 @@ class GoogleIcon: UIView {
         
         //添加中间白色浮层
         self.layer.addSublayer(self.whiteLayer)
+        self.whiteLayer.position = self.center
         
         //创建三个按钮
         self.triangleButton.center = CGPointMake(frame.width/4, frame.height/2)
@@ -121,6 +123,7 @@ class GoogleIcon: UIView {
         self.rightCircleLayer.addAnimation(CirlceAnimationManager.createAnimation(self.rightCircleLayer.position, type: PositionType.right), forKey: "right")
         self.circleButton.layer.addAnimation(CirlceAnimationManager.createScaleAnimation(), forKey: "scale")
         
+        self.whiteLayer.addAnimation(WhiteAnimationManager.createWhiteAnimation(), forKey: "white")
     }
 
     

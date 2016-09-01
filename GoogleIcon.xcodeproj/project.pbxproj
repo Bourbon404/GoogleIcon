@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62261D341D7584F30043742F /* WhiteAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62261D331D7584F30043742F /* WhiteAnimationManager.swift */; };
 		62C312DC1D73D15F008FBCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C312DB1D73D15F008FBCAE /* AppDelegate.swift */; };
 		62C312DE1D73D15F008FBCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C312DD1D73D15F008FBCAE /* ViewController.swift */; };
 		62C312E11D73D15F008FBCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C312DF1D73D15F008FBCAE /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62261D331D7584F30043742F /* WhiteAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteAnimationManager.swift; sourceTree = "<group>"; };
 		62C312D81D73D15E008FBCAE /* GoogleIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C312DB1D73D15F008FBCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62C312DD1D73D15F008FBCAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				62C312F41D73E403008FBCAE /* CircleLayer.swift */,
 				62C312F61D73E41E008FBCAE /* WhitePlaceLayer.swift */,
 				62EE57421D7435770092C782 /* CirlceAnimationManager.swift */,
+				62261D331D7584F30043742F /* WhiteAnimationManager.swift */,
 			);
 			path = Icon;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				62EE57431D7435770092C782 /* CirlceAnimationManager.swift in Sources */,
 				62C312EE1D73D188008FBCAE /* GoogleIcon.swift in Sources */,
+				62261D341D7584F30043742F /* WhiteAnimationManager.swift in Sources */,
 				62C312DE1D73D15F008FBCAE /* ViewController.swift in Sources */,
 				62C312F31D73D4AF008FBCAE /* ButtonView.swift in Sources */,
 				62C312F51D73E403008FBCAE /* CircleLayer.swift in Sources */,

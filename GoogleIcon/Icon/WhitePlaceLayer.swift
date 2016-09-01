@@ -12,7 +12,9 @@ class WhitePlaceLayer: CALayer {
 
     override init() {
         super.init()
-        self.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.8).CGColor
+        self.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.2).CGColor
+        self.masksToBounds = true
+        self.cornerRadius = 37
     }
     
     required init?(coder aDecoder: NSCoder) {
